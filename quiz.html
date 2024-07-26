@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz</title>
+</head>
+<body>
+    <h1>Simple Quiz</h1>
+    <p> Your Goal Is To Find Answers To This Quiz Through Cheating Without Being Caught By System.</p>
+    <form id="quizForm">
+        <label for="q1">What is 2 + 2?</label><br>
+        <input type="radio" id="q1a" name="q1" value="3"> 3<br>
+        <input type="radio" id="q1b" name="q1" value="4"> 4<br>
+        <input type="radio" id="q1c" name="q1" value="5"> 5<br><br>
+
+        <label for="q2">What is the capital of France?</label><br>
+        <input type="radio" id="q2a" name="q2" value="Berlin"> Berlin<br>
+        <input type="radio" id="q2b" name="q2" value="Paris"> Paris<br>
+        <input type="radio" id="q2c" name="q2" value="Rome"> Rome<br><br>
+
+        <input type="button" value="Submit" onclick="submitQuiz()">
+    </form>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
